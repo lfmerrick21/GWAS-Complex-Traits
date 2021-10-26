@@ -257,6 +257,7 @@ Marker_Effects<-function(Pheno=NULL,GWAS=NULL,alpha=0.05,correction="Bonferonni"
   #The downloaded link at: http://cran.r-project.org/package=scatterplot3d
   #source("http://zzlab.net/GAPIT/emma.txt")
   #source("http://zzlab.net/GAPIT/gapit_functions.txt")
+  #use GAPIT3 development package instead of source code
   library(GAPIT3)
   #Input your phenotypic vector
   myY_train <- Pheno
